@@ -1,0 +1,40 @@
+import { Navbar } from "@/components/Navbar";
+import { ScamTicker } from "@/components/ScamTicker";
+
+export default function AboutPage() {
+  return (
+    <div>
+      <ScamTicker />
+      <Navbar />
+      <main className="mx-auto max-w-5xl px-4 py-6">
+        <div className="rounded-2xl border border-white/10 bg-white/5 p-6">
+          <div className="text-2xl font-semibold text-white">About Fintech.AI</div>
+          <div className="mt-2 text-white/80">
+            Fintech.AI is an India-first financial safety assistant designed to help people recognize scams, take
+            immediate protective steps, and report fraud through official channels in their own language.
+          </div>
+
+          <div className="mt-6 grid gap-3 md:grid-cols-2">
+            <div className="rounded-xl border border-white/10 bg-black/20 p-4">
+              <div className="text-sm font-semibold text-white">Mission</div>
+              <div className="mt-2 text-sm text-white/80">
+                Democratize financial safety for every Indian — from metros to villages — in their own language.
+              </div>
+            </div>
+            <div className="rounded-xl border border-white/10 bg-black/20 p-4">
+              <div className="text-sm font-semibold text-white">Safety rules</div>
+              <ul className="mt-2 list-disc space-y-1 pl-5 text-sm text-white/80">
+                <li>Never share OTP/UPI PIN.</li>
+                <li>Never install unknown “support” apps from links.</li>
+                <li>If it’s urgent, call 1930 and report on cybercrime.gov.in.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="mt-6 text-xs text-white/60">© 2026 Abhishek Tiwari — All Rights Reserved</div>
+        </div>
+      </main>
+    </div>
+  );
+}
+

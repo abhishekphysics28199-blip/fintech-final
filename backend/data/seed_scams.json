@@ -1,0 +1,39 @@
+[
+  {
+    "title": "Fake Customer Care Call (UPI / Bank)",
+    "description": "Scammers pose as bank/UPI app support and ask for OTP, UPI PIN, or to install a remote-access app.",
+    "scam_type": "Customer Care Impersonation",
+    "severity": "HIGH",
+    "affected_states": "All India",
+    "source_url": "https://cybercrime.gov.in",
+    "source_name": "Cybercrime.gov.in"
+  },
+  {
+    "title": "UPI Collect Request / QR Scan Trap",
+    "description": "You receive a collect request or are asked to scan a QR code to 'receive' money; approving it debits your account.",
+    "scam_type": "UPI Fraud",
+    "severity": "HIGH",
+    "affected_states": "All India",
+    "source_url": "https://www.npci.org.in",
+    "source_name": "NPCI"
+  },
+  {
+    "title": "KYC Update Link / Phishing SMS",
+    "description": "A message claims your KYC will be blocked unless you click a link and enter banking details.",
+    "scam_type": "Phishing",
+    "severity": "MEDIUM",
+    "affected_states": "All India",
+    "source_url": "https://www.rbi.org.in",
+    "source_name": "RBI"
+  },
+  {
+    "title": "Part-time Job / Task Scam (Telegram/WhatsApp)",
+    "description": "You are promised easy earnings for liking videos or completing tasks; then asked to pay to withdraw money.",
+    "scam_type": "Job/Task Scam",
+    "severity": "HIGH",
+    "affected_states": "All India",
+    "source_url": "https://cybercrime.gov.in",
+    "source_name": "Cybercrime.gov.in"
+  }
+]
+
