@@ -1,0 +1,21 @@
+<div class="rounded-2xl border border-white/10 bg-white/5 p-4">
+  <div class="mb-3">
+    <div class="text-sm text-white/70">Choose your language</div>
+    <div class="text-lg font-semibold text-white">{{ selectedLabel() }}</div>
+  </div>
+  <div class="flex flex-wrap gap-2">
+    @for (l of languages; track l.code) {
+      <button
+        (click)="choose(l.code)"
+        class="rounded-full px-3 py-2 text-sm transition"
+        [class.bg-saffron]="l.code === selected()"
+        [class.text-navy]="l.code === selected()"
+        [class.bg-white_10]="l.code !== selected()"
+        [class.text-white]="l.code !== selected()"
+        [class.hover:bg-white_15]="l.code !== selected()"
+      >
+        {{ l.label }}
+      </button>
+    }
+  </div>
+</div>

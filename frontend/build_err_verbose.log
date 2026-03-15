@@ -1,0 +1,696 @@
+﻿[33mΓ¥»[39m Building...
+node.exe : X [ERROR] 
+NG6008: Component 
+AppComponent is 
+standalone, and cannot 
+be declared in an 
+NgModule. Did you mean 
+to import it instead? 
+[plugin 
+angular-compiler]
+At C:\Program Files\nod
+ejs\npx.ps1:29 char:3
++   & $NODE_EXE 
+$NPX_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (X [ERROR] NG6   
+ 00...gular-compile    
+r]:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+
+    src/app/app.module.
+ts:16:4:
+      16 Γöé     
+AppComponent,
+         Γò╡     
+~~~~~~~~~~~~
+
+X [ERROR] NG6008: 
+Component 
+HomePageComponent is 
+standalone, and cannot 
+be declared in an 
+NgModule. Did you mean 
+to import it instead? 
+[plugin 
+angular-compiler]
+
+    src/app/app.module.
+ts:17:4:
+      17 Γöé     
+HomePageComponent,
+         Γò╡     
+~~~~~~~~~~~~~~~~~
+
+X [ERROR] NG6008: 
+Component 
+AboutPageComponent is 
+standalone, and cannot 
+be declared in an 
+NgModule. Did you mean 
+to import it instead? 
+[plugin 
+angular-compiler]
+
+    src/app/app.module.
+ts:18:4:
+      18 Γöé     
+AboutPageComponent,
+         Γò╡     
+~~~~~~~~~~~~~~~~~~
+
+X [ERROR] NG6008: 
+Component 
+ChatPageComponent is 
+standalone, and cannot 
+be declared in an 
+NgModule. Did you mean 
+to import it instead? 
+[plugin 
+angular-compiler]
+
+    src/app/app.module.
+ts:19:4:
+      19 Γöé     
+ChatPageComponent,
+         Γò╡     
+~~~~~~~~~~~~~~~~~
+
+X [ERROR] NG6008: 
+Component 
+ReportPageComponent is 
+standalone, and cannot 
+be declared in an 
+NgModule. Did you mean 
+to import it instead? 
+[plugin 
+angular-compiler]
+
+    src/app/app.module.
+ts:20:4:
+      20 Γöé     
+ReportPageComponent,
+         Γò╡     
+~~~~~~~~~~~~~~~~~~~
+
+X [ERROR] NG6008: 
+Component 
+ScamsPageComponent is 
+standalone, and cannot 
+be declared in an 
+NgModule. Did you mean 
+to import it instead? 
+[plugin 
+angular-compiler]
+
+    src/app/app.module.
+ts:21:4:
+      21 Γöé     
+ScamsPageComponent
+         Γò╡     
+~~~~~~~~~~~~~~~~~~
+
+X [ERROR] NG6002: This 
+import contains 
+errors, which may 
+affect components that 
+depend on this 
+NgModule. [plugin 
+angular-compiler]
+
+    src/app/app.module.
+ts:26:4:
+      26 Γöé     
+SharedModule
+         Γò╡     
+~~~~~~~~~~~~
+
+X [ERROR] NG6008: 
+Component 
+ChatWindowComponent is 
+standalone, and cannot 
+be declared in an 
+NgModule. Did you mean 
+to import it instead? 
+[plugin 
+angular-compiler]
+
+    src/app/shared.modu
+le.ts:24:16:
+      24 Γöé   
+declarations: [
+         Γò╡           
+      ^
+
+X [ERROR] NG6008: 
+Component FraudSeverity
+BadgeComponent is 
+standalone, and cannot 
+be declared in an 
+NgModule. Did you mean 
+to import it instead? 
+[plugin 
+angular-compiler]
+
+    src/app/shared.modu
+le.ts:24:16:
+      24 Γöé   
+declarations: [
+         Γò╡           
+      ^
+
+X [ERROR] NG6008: 
+Component LanguageSelec
+torComponent is 
+standalone, and cannot 
+be declared in an 
+NgModule. Did you mean 
+to import it instead? 
+[plugin 
+angular-compiler]
+
+    src/app/shared.modu
+le.ts:24:16:
+      24 Γöé   
+declarations: [
+         Γò╡           
+      ^
+
+X [ERROR] NG6008: 
+Component 
+NavbarComponent is 
+standalone, and cannot 
+be declared in an 
+NgModule. Did you mean 
+to import it instead? 
+[plugin 
+angular-compiler]
+
+    src/app/shared.modu
+le.ts:24:16:
+      24 Γöé   
+declarations: [
+         Γò╡           
+      ^
+
+X [ERROR] NG6008: 
+Component 
+ScamTickerComponent is 
+standalone, and cannot 
+be declared in an 
+NgModule. Did you mean 
+to import it instead? 
+[plugin 
+angular-compiler]
+
+    src/app/shared.modu
+le.ts:24:16:
+      24 Γöé   
+declarations: [
+         Γò╡           
+      ^
+
+X [ERROR] NG6008: 
+Component WhatsAppButto
+nComponent is 
+standalone, and cannot 
+be declared in an 
+NgModule. Did you mean 
+to import it instead? 
+[plugin 
+angular-compiler]
+
+    src/app/shared.modu
+le.ts:24:16:
+      24 Γöé   
+declarations: [
+         Γò╡           
+      ^
+
+X [ERROR] NG6004: 
+Can't be exported from 
+this NgModule, as it 
+must be imported first 
+[plugin 
+angular-compiler]
+
+    src/app/shared.modu
+le.ts:32:11:
+      32 Γöé   
+exports: [
+         Γò╡           
+ ^
+
+X [ERROR] NG6004: 
+Can't be exported from 
+this NgModule, as it 
+must be imported first 
+[plugin 
+angular-compiler]
+
+    src/app/shared.modu
+le.ts:32:11:
+      32 Γöé   
+exports: [
+         Γò╡           
+ ^
+
+X [ERROR] NG6004: 
+Can't be exported from 
+this NgModule, as it 
+must be imported first 
+[plugin 
+angular-compiler]
+
+    src/app/shared.modu
+le.ts:32:11:
+      32 Γöé   
+exports: [
+         Γò╡           
+ ^
+
+X [ERROR] NG6004: 
+Can't be exported from 
+this NgModule, as it 
+must be imported first 
+[plugin 
+angular-compiler]
+
+    src/app/shared.modu
+le.ts:32:11:
+      32 Γöé   
+exports: [
+         Γò╡           
+ ^
+
+X [ERROR] NG6004: 
+Can't be exported from 
+this NgModule, as it 
+must be imported first 
+[plugin 
+angular-compiler]
+
+    src/app/shared.modu
+le.ts:32:11:
+      32 Γöé   
+exports: [
+         Γò╡           
+ ^
+
+X [ERROR] NG6004: 
+Can't be exported from 
+this NgModule, as it 
+must be imported first 
+[plugin 
+angular-compiler]
+
+    src/app/shared.modu
+le.ts:32:11:
+      32 Γöé   
+exports: [
+         Γò╡           
+ ^
+
+19 errors
+[32mΓ£ö[39m Building...
+Application bundle generation failed. [2.480 seconds] - 2026-03-15T12:40:05.845Z
+
+[1m[31m[31mX [41;31
+m[[41;97mERROR[41;31m
+][0m [1mNG6008: 
+Component AppComponent 
+is standalone, and 
+cannot be declared in 
+an NgModule. Did you 
+mean to import it 
+instead?[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/app.module.
+ts:16:4:
+[37m      16 Γöé     
+[32mAppComponent[37m,
+         Γò╡     
+[32m~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97
+mERROR[41;31m][0m 
+[1mNG6008: Component 
+HomePageComponent is 
+standalone, and cannot 
+be declared in an 
+NgModule. Did you mean 
+to import it 
+instead?[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/app.module.
+ts:17:4:
+[37m      17 Γöé     
+[32mHomePageComponent[
+37m,
+         Γò╡     [32m~
+~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97
+mERROR[41;31m][0m 
+[1mNG6008: Component 
+AboutPageComponent is 
+standalone, and cannot 
+be declared in an 
+NgModule. Did you mean 
+to import it 
+instead?[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/app.module.
+ts:18:4:
+[37m      18 Γöé     
+[32mAboutPageComponent
+[37m,
+         Γò╡     [32m~
+~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97
+mERROR[41;31m][0m 
+[1mNG6008: Component 
+ChatPageComponent is 
+standalone, and cannot 
+be declared in an 
+NgModule. Did you mean 
+to import it 
+instead?[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/app.module.
+ts:19:4:
+[37m      19 Γöé     
+[32mChatPageComponent[
+37m,
+         Γò╡     [32m~
+~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97
+mERROR[41;31m][0m 
+[1mNG6008: Component 
+ReportPageComponent is 
+standalone, and cannot 
+be declared in an 
+NgModule. Did you mean 
+to import it 
+instead?[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/app.module.
+ts:20:4:
+[37m      20 Γöé     
+[32mReportPageComponent
+[37m,
+         Γò╡     [32m~
+~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97
+mERROR[41;31m][0m 
+[1mNG6008: Component 
+ScamsPageComponent is 
+standalone, and cannot 
+be declared in an 
+NgModule. Did you mean 
+to import it 
+instead?[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/app.module.
+ts:21:4:
+[37m      21 Γöé     
+[32mScamsPageComponent
+[37m
+         Γò╡     [32m~
+~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97
+mERROR[41;31m][0m 
+[1mNG6002: This 
+import contains 
+errors, which may 
+affect components that 
+depend on this 
+NgModule.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/app.module.
+ts:26:4:
+[37m      26 Γöé     
+[32mSharedModule[37m
+         Γò╡     
+[32m~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97
+mERROR[41;31m][0m 
+[1mNG6008: Component 
+ChatWindowComponent is 
+standalone, and cannot 
+be declared in an 
+NgModule. Did you mean 
+to import it 
+instead?[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/shared.modu
+le.ts:24:16:
+[37m      24 Γöé   
+declarations: 
+[32m[[37m
+         Γò╡           
+      [32m^[0m
+
+
+[31mX [41;31m[[41;97
+mERROR[41;31m][0m 
+[1mNG6008: Component F
+raudSeverityBadgeCompon
+ent is standalone, and 
+cannot be declared in 
+an NgModule. Did you 
+mean to import it 
+instead?[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/shared.modu
+le.ts:24:16:
+[37m      24 Γöé   
+declarations: 
+[32m[[37m
+         Γò╡           
+      [32m^[0m
+
+
+[31mX [41;31m[[41;97
+mERROR[41;31m][0m 
+[1mNG6008: Component L
+anguageSelectorComponen
+t is standalone, and 
+cannot be declared in 
+an NgModule. Did you 
+mean to import it 
+instead?[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/shared.modu
+le.ts:24:16:
+[37m      24 Γöé   
+declarations: 
+[32m[[37m
+         Γò╡           
+      [32m^[0m
+
+
+[31mX [41;31m[[41;97
+mERROR[41;31m][0m 
+[1mNG6008: Component 
+NavbarComponent is 
+standalone, and cannot 
+be declared in an 
+NgModule. Did you mean 
+to import it 
+instead?[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/shared.modu
+le.ts:24:16:
+[37m      24 Γöé   
+declarations: 
+[32m[[37m
+         Γò╡           
+      [32m^[0m
+
+
+[31mX [41;31m[[41;97
+mERROR[41;31m][0m 
+[1mNG6008: Component 
+ScamTickerComponent is 
+standalone, and cannot 
+be declared in an 
+NgModule. Did you mean 
+to import it 
+instead?[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/shared.modu
+le.ts:24:16:
+[37m      24 Γöé   
+declarations: 
+[32m[[37m
+         Γò╡           
+      [32m^[0m
+
+
+[31mX [41;31m[[41;97
+mERROR[41;31m][0m 
+[1mNG6008: Component W
+hatsAppButtonComponent 
+is standalone, and 
+cannot be declared in 
+an NgModule. Did you 
+mean to import it 
+instead?[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/shared.modu
+le.ts:24:16:
+[37m      24 Γöé   
+declarations: 
+[32m[[37m
+         Γò╡           
+      [32m^[0m
+
+
+[31mX [41;31m[[41;97
+mERROR[41;31m][0m 
+[1mNG6004: Can't be 
+exported from this 
+NgModule, as it must 
+be imported first[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/shared.modu
+le.ts:32:11:
+[37m      32 Γöé   
+exports: [32m[[37m
+         Γò╡           
+ [32m^[0m
+
+
+[31mX [41;31m[[41;97
+mERROR[41;31m][0m 
+[1mNG6004: Can't be 
+exported from this 
+NgModule, as it must 
+be imported first[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/shared.modu
+le.ts:32:11:
+[37m      32 Γöé   
+exports: [32m[[37m
+         Γò╡           
+ [32m^[0m
+
+
+[31mX [41;31m[[41;97
+mERROR[41;31m][0m 
+[1mNG6004: Can't be 
+exported from this 
+NgModule, as it must 
+be imported first[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/shared.modu
+le.ts:32:11:
+[37m      32 Γöé   
+exports: [32m[[37m
+         Γò╡           
+ [32m^[0m
+
+
+[31mX [41;31m[[41;97
+mERROR[41;31m][0m 
+[1mNG6004: Can't be 
+exported from this 
+NgModule, as it must 
+be imported first[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/shared.modu
+le.ts:32:11:
+[37m      32 Γöé   
+exports: [32m[[37m
+         Γò╡           
+ [32m^[0m
+
+
+[31mX [41;31m[[41;97
+mERROR[41;31m][0m 
+[1mNG6004: Can't be 
+exported from this 
+NgModule, as it must 
+be imported first[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/shared.modu
+le.ts:32:11:
+[37m      32 Γöé   
+exports: [32m[[37m
+         Γò╡           
+ [32m^[0m
+
+
+[31mX [41;31m[[41;97
+mERROR[41;31m][0m 
+[1mNG6004: Can't be 
+exported from this 
+NgModule, as it must 
+be imported first[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/shared.modu
+le.ts:32:11:
+[37m      32 Γöé   
+exports: [32m[[37m
+         Γò╡           
+ [32m^[0m
+
+[39m[22m

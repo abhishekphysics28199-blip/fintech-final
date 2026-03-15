@@ -1,0 +1,91 @@
+<div class="flex flex-col gap-3">
+  <div class="rounded-2xl border border-white/10 bg-white/5 p-3">
+    <div class="text-xs text-white/60">
+      Tip: Describe what happened (amount, UPI app, time, link/call/SMS). If it’s ongoing, call
+      <span class="text-white">1930</span> now.
+    </div>
+  </div>
+
+  <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
+    <div class="space-y-4">
+      @if (messages().length === 0) {
+        <div class="text-sm text-white/70">
+          Ask about UPI fraud, suspicious links, fake customer care calls, investment scams, insurance fraud, or reporting steps.
+        </div>
+      }
+
+      @for (m of messages(); track m; let idx = $index) {
+        <div [class]="m.role === 'user' ? 'flex justify-end' : 'flex justify-start'">
+          <div
+            class="max-w-[92%] rounded-2xl px-4 py-3 text-sm leading-relaxed"
+            [class.bg-saffron]="m.role === 'user'"
+            [class.text-navy]="m.role === 'user'"
+            [class.bg-[#0B2148]]]="m.role !== 'user'"
+            [class.text-white]="m.role !== 'user'"
+          >
+            @if (m.role !== 'user' && m.payload) {
+              <div class="mb-2 flex flex-wrap items-center gap-2">
+                <app-fraud-severity-badge [severity]="m.payload.severity"></app-fraud-severity-badge>
+                <span class="text-xs text-white/70">Scam type:</span>
+                <span class="text-xs font-semibold">{{ m.payload.scam_type }}</span>
+              </div>
+            }
+            
+            <div class="whitespace-pre-wrap">{{ m.content }}</div>
+
+            @if (m.role !== 'user' && m.payload) {
+              <div class="mt-3 space-y-3">
+                <div>
+                  <div class="mb-1 text-xs font-semibold text-white/90">Step-by-step action plan</div>
+                  <ul class="list-disc space-y-1 pl-5 text-sm text-white/90">
+                    @for (s of m.payload.action_plan; track s) {
+                      <li>{{ s }}</li>
+                    }
+                  </ul>
+                </div>
+                <div>
+                  <div class="mb-1 text-xs font-semibold text-white/90">Official help</div>
+                  <div class="flex flex-wrap gap-2">
+                    @for (l of m.payload.official_links; track l.url) {
+                      <a
+                        [href]="l.url"
+                        target="_blank"
+                        rel="noreferrer"
+                        class="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-white/90 hover:bg-white/10"
+                      >
+                        {{ l.label }}
+                      </a>
+                    }
+                  </div>
+                </div>
+                <div class="pt-1">
+                  <app-whatsapp-button [text]="m.payload.whatsapp_ready_text"></app-whatsapp-button>
+                </div>
+              </div>
+            }
+          </div>
+        </div>
+      }
+      @if (loading()) {
+        <div class="text-sm text-white/60">Fintech.AI is thinking…</div>
+      }
+      <div #bottomRef></div>
+    </div>
+  </div>
+
+  <div class="flex gap-2">
+    <input
+      [(ngModel)]="input"
+      (keydown.enter)="send()"
+      placeholder="Describe your issue…"
+      class="flex-1 rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-white outline-none focus:border-saffron/60"
+    />
+    <button
+      [disabled]="loading()"
+      (click)="send()"
+      class="rounded-2xl bg-saffron px-5 py-3 text-sm font-semibold text-navy disabled:opacity-60"
+    >
+      Send
+    </button>
+  </div>
+</div>

@@ -1,0 +1,40 @@
+<button
+  (click)="openModal()"
+  class="rounded-xl bg-saffron px-4 py-2 text-sm font-semibold text-navy hover:opacity-90"
+>
+  Send to WhatsApp
+</button>
+
+@if (open()) {
+  <div class="fixed inset-0 z-50 flex items-center justify-center bg-black/60 p-4">
+    <div class="w-full max-w-md rounded-2xl border border-white/10 bg-[#071326] p-4">
+      <div class="mb-2 text-lg font-semibold text-white">Send to WhatsApp</div>
+      <div class="mb-3 text-sm text-white/70">
+        Enter your WhatsApp number with country code (example: <span class="text-white">+9198xxxxxxx</span>).
+      </div>
+      <input
+        [(ngModel)]="to"
+        placeholder="+91..."
+        class="w-full rounded-xl border border-white/10 bg-white/5 px-3 py-2 text-white outline-none focus:border-saffron/60"
+      />
+      @if (error()) {
+        <div class="mt-2 text-sm text-red-200">{{ error() }}</div>
+      }
+      <div class="mt-4 flex items-center justify-end gap-2">
+        <button
+          (click)="closeModal()"
+          class="rounded-xl border border-white/10 px-4 py-2 text-sm text-white/80 hover:bg-white/5"
+        >
+          Cancel
+        </button>
+        <button
+          [disabled]="!to() || status() === 'sending'"
+          (click)="send()"
+          class="rounded-xl bg-saffron px-4 py-2 text-sm font-semibold text-navy disabled:opacity-50"
+        >
+          {{ status() === 'sending' ? 'Sending…' : status() === 'sent' ? 'Sent' : 'Send' }}
+        </button>
+      </div>
+    </div>
+  </div>
+}
